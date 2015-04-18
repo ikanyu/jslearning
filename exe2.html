@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="layout.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function () {
+
+	var paint = "white"
+
+	$(".color").on("click", function () {
+		paint = $(this).css('background-color');
+	})
+
+	$('.row1').on('click', function () {
+
+		$(this).css("background-color", paint );
+	});
+
+});
+		</script>
+	</head>
+	<body>
+		<div class="exe2">
+		<div class="color" id="red"></div>
+		<div class="color" id="blue"></div>
+		<div class="color" id="green"></div>
+		</div>
+		
+		<div class="board">
+			<div class="row1" id="row1box1"></div>
+			<div class="row1" id="row1box2"></div>
+			<div class="row1" id="row1box3"></div>
+		</div>
+	</body>
+</html>

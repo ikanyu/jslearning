@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="layout.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			$('button').click(function(){
+			$('body').css('background', '#' + changeColour());
+	});
+});
+
+			function changeColour() {
+				return Math.floor(Math.random()*16777215).toString(16);
+			}
+		</script>
+	</head>
+	<body class="exe1">
+		<div class="buttonClickMe">
+		<button type="button" onclick="changeColour()">Click me</button>
+		</div>
+	</body>
+</html>

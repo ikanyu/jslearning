@@ -1,0 +1,71 @@
+/*exe1*/
+button
+{
+	background-color: red;
+	width: 100px;
+	height: 100px;
+}
+
+body.exe1
+{
+	text-align: center;
+	background: blue;
+}
+
+/*exe2*/
+
+.color
+{
+	width: 100px;
+	height: 100px;
+	display: inline;
+	position: relative;
+	cursor: pointer;
+}
+
+.exe2
+{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#red 
+{
+	background-color:red;
+	float: left;
+}
+
+#blue
+{
+	background-color: blue;
+	float: left;
+}
+
+#green
+{
+	background-color: green;
+	float: left;
+}
+
+.board
+{
+	width: 468px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 150px;
+}
+
+.row1
+{
+	width: 150px;
+	height: 150px;
+	display: inline;
+	position: relative;	
+}
+
+#row1box1, #row1box2, #row1box3
+{
+	background-color: yellow;
+	float: left;
+	border-style: solid;
+}
