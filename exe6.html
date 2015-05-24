@@ -1,0 +1,27 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="exe6.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var number = 20;
+		
+  $("img").click(function(){
+  	
+    $(this).css("box-shadow",'black 0px 0px ' + number +'px');
+    number = number + 10;
+  });
+});
+
+</script>
+</head>
+
+<body>
+	<div class="image">
+	<img src="img/cute_puppy.jpg" alt="">	
+	</div>
+	<div class="quote">May the LORD keep watch between you and me when we are away from each other. Genesis 31:49 </div>
+	<div class="quote">Heal me, O LORD, and I will be healed; Save me and I will be saved, For You are my praise. Jeremiah 17:41</div>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+body
+{
+	background-color: rgb(228,238,245);;
+}
+
+#message
+{
+	color: rgb(99,124,137);
+	text-align: center;
+	font-size: 40px;
+	vertical-align: middle;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}

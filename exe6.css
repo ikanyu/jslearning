@@ -1,0 +1,25 @@
+.image
+{
+	text-align: center;
+	vertical-align: middle;
+}
+
+body
+{
+	background-color: rgb(237,210,204);
+}
+
+.quote
+{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding-top: 30px;
+	font-family: Helvetica;
+	font-size: 20px;
+}
+
+img
+{
+box-shadow : white 0px 0px 50px;
+}

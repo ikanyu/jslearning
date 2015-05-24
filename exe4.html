@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="exe4.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+		<script type="text/javascript">
+
+		$(document).ready(function()
+		{
+			var d = new Date();
+			var day = d.getDay();
+			var message = 
+			[
+			"Super Sunday!",
+			"Monday Blue",
+			"Awesome Tuesday",
+			"Hang on Wednesday",
+			"Almost there Thursday",
+			"Thank God It's Friday",
+			"Hello Saturday"
+			]	
+
+			$("#" + day).attr("id", "today");
+			$("#message").text(message[day]);		
+		}
+		);
+
+		</script>
+	</head>
+	<body>
+
+	<div class="day" id="0"></div>
+	<div class="day" id="1"></div>
+	<div class="day" id="2"></div>
+	<div class="day" id="3"></div>
+	<div class="day" id="4"></div>
+	<div class="day" id="5"></div>
+	<div class="day" id="6"></div>
+
+	<div class="topic"></div>
+
+	<div id="message"></div>
+		
+	</body>
+</html>
